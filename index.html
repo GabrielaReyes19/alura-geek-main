@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="cabecera">
+        <img class="logo" src="./assets/corazon.png" alt="corazón">
+        <h1>AluraGeek</h1>
+        <img class="logo__add" src="./assets/corazon.png" alt="corazón">
+    </header> 
+
+    <main class="seccion">
+        <section class="seccion__items">
+            <h1 class="seccion__titulo">Mis Productos:</h1>
+            <br>
+            <ul class="seccion_items_todos" data-lista></ul>
+        </section>
+
+        <section class="seccion__insertar">
+            <form class="seccion__insertar__formulario" data-formulario>
+                <h1 class="seccion__titulo">Agregar producto:</h1>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="nombre">Nombre</label>
+                    <input class="campo__escritura" name="nombre" type="text" placeholder="nombre..." minlength="3" required data-nombre/>
+                    <span class="mensaje-error"></span> 
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="valor">Valor</label>
+                    <input class="campo__escritura" name="valor" type="number" step="0.01" pattern="\d+(\.\d{2})?" placeholder="valor..." required data-valor/>
+                    <span class="mensaje-error"></span> 
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="imagen">Imagen</label>
+                    <input class="campo__escritura" name="imagen" type="url" placeholder="url-imagen..." required data-imagen/>
+                    <span class="mensaje-error"></span> 
+                </div>
+                <div class="formulario__boton">
+                    <button class="formulario__boton__guardar" type="submit">Guardar</button>
+                    <button class="formulario__boton__limpiar" type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main> 
+
+    <footer class="pie">
+        <div class="pie_logo">
+            <img class="logo" src="./assets/corazon.png" alt="corazón">
+            <h1 class="pie__titulo">AluraGeek</h1>
+            <img class="logo__add" src="./assets/corazon.png" alt="corazón">
+        </div>
+        <p class="pie__texto">Desarrollado por Gabriela Reyes Pazo</p>
+        <p class="pie__texto">2024</p>
+        <div class="redes_sociales">
+            <a href="https://github.com/GabrielaReyes19" target="_blank">
+                <img src="./assets/github.svg" alt="imagen github">
+            </a>
+            <a href="https://www.linkedin.com/in/gabriela-reyes-a7b46a1a5/" target="_blank">
+                <img src="./assets/linkedin.svg" alt="imagen linkedin">
+            </a>
+            <a href="https://www.instagram.com/gabrielareyes9194/" target="_blank">
+                <img src="./assets/instagram.svg" alt="imagen instagram">
+            </a>
+        </div>
+    </footer>
+
+    <script src="./script/mostrarProductos.js" type="module"></script>
+    <script src="./script/crearProductos.js" type="module"></script>
+    <script src="./script/eliminarProductos.js" type="module"></script>
+    <script src="./script/conectaApi.js" type="module"></script>
+</body>
+</html>

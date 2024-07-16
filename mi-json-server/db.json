@@ -1,0 +1,64 @@
+{
+  "productos": [
+    {
+      "nombre": "Birthday - Random Cake ver.",
+      "valor": "98.00",
+      "imagen": "https://kstars.co.uk/cdn/shop/products/Screenshot2022-12-062.27.10PM_1024x.png?v=1670337194",
+      "id": 2
+    },
+    {
+      "nombre": "Chill Kill - Random Photobook ver.",
+      "valor": "80.00",
+      "imagen": "https://www.picclickimg.com/~xIAAOSwMaVlSHjn/RED-VELVET-CHILL-KILL-Album-PHOTO-BOOK-2.webp",
+      "id": 3
+    },
+    {
+      "nombre": "Summer Magic - Random Limited ver.",
+      "valor": "150.00",
+      "imagen": "https://www.musicplaza.com/cdn/shop/products/revelimite.jpg?v=1556412840",
+      "id": 4
+    },
+    {
+      "nombre": "Feel My Rhythm - Orgel ver.",
+      "valor": "85.00",
+      "imagen": "https://m.media-amazon.com/images/I/51aD6MzLspL._AC_UF894,1000_QL80_.jpg",
+      "id": 5
+    },
+    {
+      "nombre": "Feel My Rhythm - Random Photobook ver.",
+      "valor": "85.00",
+      "imagen": "https://m.media-amazon.com/images/I/61RyVXAwpNL._AC_UF894,1000_QL80_.jpg",
+      "id": 6
+    },
+    {
+      "nombre": "Game Boy",
+      "valor": "499.00",
+      "imagen": "https://cdn.pixabay.com/photo/2016/02/15/17/48/nintendo-game-boy-1201692_1280.jpg",
+      "id": 7
+    },
+    {
+      "nombre": "Queendom - Queens ver.",
+      "valor": "90.00",
+      "imagen": "https://m.media-amazon.com/images/I/71D8MJn9ytL._UF1000,1000_QL80_.jpg",
+      "id": 8
+    },
+    {
+      "nombre": "Cosmic - Random Poster ver.",
+      "valor": "64.00",
+      "imagen": "https://nolae.es/cdn/shop/files/ImageViewerEShop_1_d44d9474-c9a8-4b12-b0ae-fb2e8bbac062_450x450.jpg?v=1718630335",
+      "id": 9
+    },
+    {
+      "nombre": "Cosmic - Set Photobook ver.",
+      "valor": "130.00",
+      "imagen": "https://kstoryespana.es/cdn/shop/files/XL_7_f25a1fef-e92a-4122-af58-2af140277e59.jpg?v=1718738371",
+      "id": 10
+    },
+    {
+      "nombre": "The Reve Festival - Random Day 1 ver.",
+      "valor": "100.00",
+      "imagen": "https://www.musicplaza.com/cdn/shop/products/redveleday.jpg?v=1560921052",
+      "id": 11
+    }
+  ]
+}
